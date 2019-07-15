@@ -44,10 +44,12 @@
 //    return _versionController.versions.count;
     
     // Dot syntax is a newer addition to Objective-C (2.0)
-    // return self.versionController.versions.count;
+//     return self.versionController.versions.count;
     
     // Method calling
     return [[[self versionController] versions] count];
+    
+//    return [[self versionController] versions].count; // Prefer dot syntax or method calling
     
 }
 
@@ -56,13 +58,21 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"VersionCell" forIndexPath:indexPath];
     
     // cell.textLabel.text = "Test"
-    cell.textLabel.text = @"Test";
+//    cell.textLabel.text = @"Test";
     
     // Method call
-    [[cell textLabel] setText:@"Test"];
+//    [[cell textLabel] setText:@"Test"];
     
+//    NSInteger row = [indexPath row];
+//    NSInteger row = indexPath.row;
     
-    LSIMacOSVersion *version = [[[self versionController] versions] objectAtIndex:[indexPath row]];
+//    LSIMacOSVersion *version = [[[self versionController] versions] objectAtIndex:[indexPath row]];
+    
+//    LSIMacOSVersion *version = [self.versionController.versions objectAtIndex:indexPath.row];
+    
+    LSIMacOSVersion *version = self.versionController.versions[indexPath.row];
+
+    
     
     // Method calling syntax
     [[cell textLabel] setText:[version codename]];
