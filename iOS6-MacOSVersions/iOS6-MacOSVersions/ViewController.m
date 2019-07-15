@@ -14,6 +14,9 @@
 
 @implementation ViewController
 
+// + = static/class method
+// - = instance method
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

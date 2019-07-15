@@ -13,6 +13,7 @@
 		BD1539A722DCDE470013FB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1539A622DCDE470013FB28 /* Assets.xcassets */; };
 		BD1539AA22DCDE470013FB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1539A822DCDE470013FB28 /* LaunchScreen.storyboard */; };
 		BD1539AD22DCDE470013FB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1539AC22DCDE470013FB28 /* main.m */; };
+		BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BD1539A922DCDE470013FB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1539AB22DCDE470013FB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1539AC22DCDE470013FB28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDFA1D5A22DCE3B800466641 /* LSIMacOSVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIMacOSVersion.h; sourceTree = "<group>"; };
+		BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIMacOSVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BD15399E22DCDE450013FB28 /* AppDelegate.m */,
 				BD1539A022DCDE450013FB28 /* ViewController.h */,
 				BD1539A122DCDE450013FB28 /* ViewController.m */,
+				BDFA1D5A22DCE3B800466641 /* LSIMacOSVersion.h */,
+				BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */,
 				BD1539A322DCDE450013FB28 /* Main.storyboard */,
 				BD1539A622DCDE470013FB28 /* Assets.xcassets */,
 				BD1539A822DCDE470013FB28 /* LaunchScreen.storyboard */,
@@ -97,6 +102,7 @@
 		BD15399222DCDE450013FB28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LSI;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Lambda, Inc";
 				TargetAttributes = {
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1539A222DCDE450013FB28 /* ViewController.m in Sources */,
+				BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */,
 				BD1539AD22DCDE470013FB28 /* main.m in Sources */,
 				BD15399F22DCDE450013FB28 /* AppDelegate.m in Sources */,
 			);
