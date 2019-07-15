@@ -49,7 +49,7 @@
     // print "Panther was released on October 24, 2003"
     
     // Dot syntax: version.codename
-    
+    NSLog(@"%@ was released on %@: %p", version.codename, version.releaseDate, version);
 }
 
 

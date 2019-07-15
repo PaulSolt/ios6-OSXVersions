@@ -14,6 +14,7 @@
 		BD1539AA22DCDE470013FB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1539A822DCDE470013FB28 /* LaunchScreen.storyboard */; };
 		BD1539AD22DCDE470013FB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1539AC22DCDE470013FB28 /* main.m */; };
 		BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */; };
+		BDFA1D5F22DCF03C00466641 /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BD1539AC22DCDE470013FB28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDFA1D5A22DCE3B800466641 /* LSIMacOSVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIMacOSVersion.h; sourceTree = "<group>"; };
 		BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIMacOSVersion.m; sourceTree = "<group>"; };
+		BDFA1D5D22DCF03C00466641 /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
+		BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BD1539A122DCDE450013FB28 /* ViewController.m */,
 				BDFA1D5A22DCE3B800466641 /* LSIMacOSVersion.h */,
 				BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */,
+				BDFA1D5D22DCF03C00466641 /* LSIVersionController.h */,
+				BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */,
 				BD1539A322DCDE450013FB28 /* Main.storyboard */,
 				BD1539A622DCDE470013FB28 /* Assets.xcassets */,
 				BD1539A822DCDE470013FB28 /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFA1D5F22DCF03C00466641 /* LSIVersionController.m in Sources */,
 				BD1539A222DCDE450013FB28 /* ViewController.m in Sources */,
 				BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */,
 				BD1539AD22DCDE470013FB28 /* main.m in Sources */,
