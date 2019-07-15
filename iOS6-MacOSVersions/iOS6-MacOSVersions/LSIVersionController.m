@@ -20,6 +20,7 @@
 //        _versions = [[NSArray alloc] init];
         
         //[[NSArray alloc] initWithArray:]];
+        //[[NSArray alloc] initWithObjects:version1, version2, nil];
         
         _versions = @[
                        [[LSIMacOSVersion alloc] initWithCodename:@"Cheetah" releaseDate:@"March 24, 2001"],

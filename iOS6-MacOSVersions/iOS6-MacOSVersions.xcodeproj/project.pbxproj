@@ -15,6 +15,7 @@
 		BD1539AD22DCDE470013FB28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1539AC22DCDE470013FB28 /* main.m */; };
 		BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */; };
 		BDFA1D5F22DCF03C00466641 /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */; };
+		BDFA1D6222DCF40600466641 /* LSIVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1D6122DCF40600466641 /* LSIVersionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIMacOSVersion.m; sourceTree = "<group>"; };
 		BDFA1D5D22DCF03C00466641 /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
 		BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
+		BDFA1D6022DCF40600466641 /* LSIVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableViewController.h; sourceTree = "<group>"; };
+		BDFA1D6122DCF40600466641 /* LSIVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				BDFA1D5B22DCE3B800466641 /* LSIMacOSVersion.m */,
 				BDFA1D5D22DCF03C00466641 /* LSIVersionController.h */,
 				BDFA1D5E22DCF03C00466641 /* LSIVersionController.m */,
+				BDFA1D6022DCF40600466641 /* LSIVersionsTableViewController.h */,
+				BDFA1D6122DCF40600466641 /* LSIVersionsTableViewController.m */,
 				BD1539A322DCDE450013FB28 /* Main.storyboard */,
 				BD1539A622DCDE470013FB28 /* Assets.xcassets */,
 				BD1539A822DCDE470013FB28 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			files = (
 				BDFA1D5F22DCF03C00466641 /* LSIVersionController.m in Sources */,
 				BD1539A222DCDE450013FB28 /* ViewController.m in Sources */,
+				BDFA1D6222DCF40600466641 /* LSIVersionsTableViewController.m in Sources */,
 				BDFA1D5C22DCE3B800466641 /* LSIMacOSVersion.m in Sources */,
 				BD1539AD22DCDE470013FB28 /* main.m in Sources */,
 				BD15399F22DCDE450013FB28 /* AppDelegate.m in Sources */,
