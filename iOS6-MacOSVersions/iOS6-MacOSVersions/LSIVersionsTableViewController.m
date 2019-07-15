@@ -8,6 +8,7 @@
 
 #import "LSIVersionsTableViewController.h"
 #import "LSIVersionController.h"
+#import "LSIMacOSVersion.h"
 
 @interface LSIVersionsTableViewController ()
 
@@ -18,6 +19,8 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self != nil) {
+        
+        // In an initializer: Always want to use the _variableName to set the property
         
         _versionController = [[LSIVersionController alloc] init];
     }
@@ -38,7 +41,14 @@
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _versionController.versions.count;
+//    return _versionController.versions.count;
+    
+    // Dot syntax is a newer addition to Objective-C (2.0)
+    // return self.versionController.versions.count;
+    
+    // Method calling
+    return [[[self versionController] versions] count];
+    
 }
 
 
@@ -52,6 +62,13 @@
     [[cell textLabel] setText:@"Test"];
     
     
+    LSIMacOSVersion *version = [[[self versionController] versions] objectAtIndex:[indexPath row]];
+    
+    // Method calling syntax
+    [[cell textLabel] setText:[version codename]];
+    
+    // Dot syntax
+    cell.detailTextLabel.text = version.releaseDate;
     
     return cell;
 }
